@@ -46,14 +46,23 @@ Partial Class FormMain
         Me.Timer1 = New System.Windows.Forms.Timer(Me.components)
         Me.Guna2Panel3 = New Guna.UI2.WinForms.Guna2Panel()
         Me.Guna2Panel4 = New Guna.UI2.WinForms.Guna2Panel()
-        Me.Guna2Panel10 = New Guna.UI2.WinForms.Guna2Panel()
+        Me.Guna2Panel11 = New Guna.UI2.WinForms.Guna2Panel()
         Me.BunifuCustomLabel14 = New Bunifu.Framework.UI.BunifuCustomLabel()
         Me.BunifuCustomLabel15 = New Bunifu.Framework.UI.BunifuCustomLabel()
         Me.Guna2PictureBox7 = New Guna.UI2.WinForms.Guna2PictureBox()
+        Me.Guna2Panel10 = New Guna.UI2.WinForms.Guna2Panel()
+        Me.BunifuCustomLabel12 = New Bunifu.Framework.UI.BunifuCustomLabel()
+        Me.BunifuCustomLabel13 = New Bunifu.Framework.UI.BunifuCustomLabel()
+        Me.Guna2PictureBox6 = New Guna.UI2.WinForms.Guna2PictureBox()
         Me.Guna2Panel7 = New Guna.UI2.WinForms.Guna2Panel()
-        Me.BunifuCustomLabel8 = New Bunifu.Framework.UI.BunifuCustomLabel()
-        Me.BunifuCustomLabel9 = New Bunifu.Framework.UI.BunifuCustomLabel()
-        Me.Guna2PictureBox4 = New Guna.UI2.WinForms.Guna2PictureBox()
+        Me.Guna2Panel13 = New Guna.UI2.WinForms.Guna2Panel()
+        Me.BunifuCustomLabel18 = New Bunifu.Framework.UI.BunifuCustomLabel()
+        Me.BunifuCustomLabel19 = New Bunifu.Framework.UI.BunifuCustomLabel()
+        Me.Guna2PictureBox9 = New Guna.UI2.WinForms.Guna2PictureBox()
+        Me.Guna2Panel12 = New Guna.UI2.WinForms.Guna2Panel()
+        Me.BunifuCustomLabel16 = New Bunifu.Framework.UI.BunifuCustomLabel()
+        Me.BunifuCustomLabel17 = New Bunifu.Framework.UI.BunifuCustomLabel()
+        Me.Guna2PictureBox8 = New Guna.UI2.WinForms.Guna2PictureBox()
         Me.Guna2Panel8 = New Guna.UI2.WinForms.Guna2Panel()
         Me.BunifuCustomLabel10 = New Bunifu.Framework.UI.BunifuCustomLabel()
         Me.BunifuCustomLabel11 = New Bunifu.Framework.UI.BunifuCustomLabel()
@@ -69,18 +78,24 @@ Partial Class FormMain
         Me.BunifuCustomLabel3 = New Bunifu.Framework.UI.BunifuCustomLabel()
         Me.BunifuCustomLabel2 = New Bunifu.Framework.UI.BunifuCustomLabel()
         Me.Guna2Panel9 = New Guna.UI2.WinForms.Guna2Panel()
-        Me.Label10 = New System.Windows.Forms.Label()
+        Me.Guna2Panel14 = New Guna.UI2.WinForms.Guna2Panel()
         Me.Label1 = New System.Windows.Forms.Label()
+        Me.Label10 = New System.Windows.Forms.Label()
         Me.Guna2TextBox1 = New Guna.UI2.WinForms.Guna2TextBox()
         Me.Guna2Panel1.SuspendLayout()
         Me.Guna2Panel2.SuspendLayout()
         CType(Me.Guna2PictureBox1, System.ComponentModel.ISupportInitialize).BeginInit()
         Me.Guna2Panel3.SuspendLayout()
         Me.Guna2Panel4.SuspendLayout()
-        Me.Guna2Panel10.SuspendLayout()
+        Me.Guna2Panel11.SuspendLayout()
         CType(Me.Guna2PictureBox7, System.ComponentModel.ISupportInitialize).BeginInit()
+        Me.Guna2Panel10.SuspendLayout()
+        CType(Me.Guna2PictureBox6, System.ComponentModel.ISupportInitialize).BeginInit()
         Me.Guna2Panel7.SuspendLayout()
-        CType(Me.Guna2PictureBox4, System.ComponentModel.ISupportInitialize).BeginInit()
+        Me.Guna2Panel13.SuspendLayout()
+        CType(Me.Guna2PictureBox9, System.ComponentModel.ISupportInitialize).BeginInit()
+        Me.Guna2Panel12.SuspendLayout()
+        CType(Me.Guna2PictureBox8, System.ComponentModel.ISupportInitialize).BeginInit()
         Me.Guna2Panel8.SuspendLayout()
         CType(Me.Guna2PictureBox5, System.ComponentModel.ISupportInitialize).BeginInit()
         Me.Guna2Panel6.SuspendLayout()
@@ -88,6 +103,7 @@ Partial Class FormMain
         Me.Guna2Panel5.SuspendLayout()
         CType(Me.Guna2PictureBox2, System.ComponentModel.ISupportInitialize).BeginInit()
         Me.Guna2Panel9.SuspendLayout()
+        Me.Guna2Panel14.SuspendLayout()
         Me.SuspendLayout()
         '
         'Guna2Elipse1
@@ -416,7 +432,7 @@ Partial Class FormMain
         Me.btnhome.CustomImages.Parent = Me.btnhome
         Me.btnhome.FillColor = System.Drawing.Color.FromArgb(CType(CType(35, Byte), Integer), CType(CType(38, Byte), Integer), CType(CType(47, Byte), Integer))
         Me.btnhome.Font = New System.Drawing.Font("Segoe UI Semibold", 10.0!, System.Drawing.FontStyle.Bold)
-        Me.btnhome.ForeColor = System.Drawing.Color.White
+        Me.btnhome.ForeColor = System.Drawing.Color.FromArgb(CType(CType(121, Byte), Integer), CType(CType(123, Byte), Integer), CType(CType(129, Byte), Integer))
         Me.btnhome.HoverState.FillColor = System.Drawing.Color.FromArgb(CType(CType(108, Byte), Integer), CType(CType(93, Byte), Integer), CType(CType(211, Byte), Integer))
         Me.btnhome.HoverState.Font = New System.Drawing.Font("Segoe UI Semibold", 10.0!, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
         Me.btnhome.HoverState.ForeColor = System.Drawing.Color.White
@@ -451,6 +467,7 @@ Partial Class FormMain
         '
         'Guna2Panel4
         '
+        Me.Guna2Panel4.Controls.Add(Me.Guna2Panel11)
         Me.Guna2Panel4.Controls.Add(Me.Guna2Panel10)
         Me.Guna2Panel4.Controls.Add(Me.Guna2Panel7)
         Me.Guna2Panel4.Controls.Add(Me.Guna2Panel8)
@@ -463,20 +480,20 @@ Partial Class FormMain
         Me.Guna2Panel4.Name = "Guna2Panel4"
         Me.Guna2Panel4.ShadowDecoration.Parent = Me.Guna2Panel4
         Me.Guna2Panel4.Size = New System.Drawing.Size(894, 790)
-        Me.Guna2Panel4.TabIndex = 19
+        Me.Guna2Panel4.TabIndex = 21
         '
-        'Guna2Panel10
+        'Guna2Panel11
         '
-        Me.Guna2Panel10.BorderRadius = 25
-        Me.Guna2Panel10.Controls.Add(Me.BunifuCustomLabel14)
-        Me.Guna2Panel10.Controls.Add(Me.BunifuCustomLabel15)
-        Me.Guna2Panel10.Controls.Add(Me.Guna2PictureBox7)
-        Me.Guna2Panel10.FillColor = System.Drawing.Color.FromArgb(CType(CType(108, Byte), Integer), CType(CType(93, Byte), Integer), CType(CType(211, Byte), Integer))
-        Me.Guna2Panel10.Location = New System.Drawing.Point(34, 581)
-        Me.Guna2Panel10.Name = "Guna2Panel10"
-        Me.Guna2Panel10.ShadowDecoration.Parent = Me.Guna2Panel10
-        Me.Guna2Panel10.Size = New System.Drawing.Size(377, 162)
-        Me.Guna2Panel10.TabIndex = 21
+        Me.Guna2Panel11.BorderRadius = 25
+        Me.Guna2Panel11.Controls.Add(Me.BunifuCustomLabel14)
+        Me.Guna2Panel11.Controls.Add(Me.BunifuCustomLabel15)
+        Me.Guna2Panel11.Controls.Add(Me.Guna2PictureBox7)
+        Me.Guna2Panel11.FillColor = System.Drawing.Color.PaleGoldenrod
+        Me.Guna2Panel11.Location = New System.Drawing.Point(34, 648)
+        Me.Guna2Panel11.Name = "Guna2Panel11"
+        Me.Guna2Panel11.ShadowDecoration.Parent = Me.Guna2Panel11
+        Me.Guna2Panel11.Size = New System.Drawing.Size(377, 117)
+        Me.Guna2Panel11.TabIndex = 20
         '
         'BunifuCustomLabel14
         '
@@ -484,11 +501,11 @@ Partial Class FormMain
         Me.BunifuCustomLabel14.BackColor = System.Drawing.Color.Transparent
         Me.BunifuCustomLabel14.Font = New System.Drawing.Font("Century Gothic", 25.8!, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
         Me.BunifuCustomLabel14.ForeColor = System.Drawing.SystemColors.ActiveCaptionText
-        Me.BunifuCustomLabel14.Location = New System.Drawing.Point(28, 89)
+        Me.BunifuCustomLabel14.Location = New System.Drawing.Point(31, 51)
         Me.BunifuCustomLabel14.Name = "BunifuCustomLabel14"
-        Me.BunifuCustomLabel14.Size = New System.Drawing.Size(130, 49)
+        Me.BunifuCustomLabel14.Size = New System.Drawing.Size(46, 49)
         Me.BunifuCustomLabel14.TabIndex = 17
-        Me.BunifuCustomLabel14.Text = "1,175"
+        Me.BunifuCustomLabel14.Text = "5"
         '
         'BunifuCustomLabel15
         '
@@ -496,17 +513,17 @@ Partial Class FormMain
         Me.BunifuCustomLabel15.BackColor = System.Drawing.Color.Transparent
         Me.BunifuCustomLabel15.Font = New System.Drawing.Font("Century Gothic", 15.0!, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
         Me.BunifuCustomLabel15.ForeColor = System.Drawing.SystemColors.ActiveCaptionText
-        Me.BunifuCustomLabel15.Location = New System.Drawing.Point(32, 28)
+        Me.BunifuCustomLabel15.Location = New System.Drawing.Point(33, 19)
         Me.BunifuCustomLabel15.Name = "BunifuCustomLabel15"
-        Me.BunifuCustomLabel15.Size = New System.Drawing.Size(189, 29)
+        Me.BunifuCustomLabel15.Size = New System.Drawing.Size(166, 29)
         Me.BunifuCustomLabel15.TabIndex = 16
-        Me.BunifuCustomLabel15.Text = "Total Members"
+        Me.BunifuCustomLabel15.Text = "Total Reports"
         '
         'Guna2PictureBox7
         '
         Me.Guna2PictureBox7.BackColor = System.Drawing.Color.Transparent
         Me.Guna2PictureBox7.Image = Global.LibraryManagementSystemApp.My.Resources.Resources.members
-        Me.Guna2PictureBox7.Location = New System.Drawing.Point(269, 28)
+        Me.Guna2PictureBox7.Location = New System.Drawing.Point(277, 25)
         Me.Guna2PictureBox7.Name = "Guna2PictureBox7"
         Me.Guna2PictureBox7.ShadowDecoration.Parent = Me.Guna2PictureBox7
         Me.Guna2PictureBox7.Size = New System.Drawing.Size(55, 52)
@@ -514,54 +531,166 @@ Partial Class FormMain
         Me.Guna2PictureBox7.TabIndex = 12
         Me.Guna2PictureBox7.TabStop = False
         '
+        'Guna2Panel10
+        '
+        Me.Guna2Panel10.BorderRadius = 25
+        Me.Guna2Panel10.Controls.Add(Me.BunifuCustomLabel12)
+        Me.Guna2Panel10.Controls.Add(Me.BunifuCustomLabel13)
+        Me.Guna2Panel10.Controls.Add(Me.Guna2PictureBox6)
+        Me.Guna2Panel10.FillColor = System.Drawing.Color.PaleVioletRed
+        Me.Guna2Panel10.Location = New System.Drawing.Point(34, 520)
+        Me.Guna2Panel10.Name = "Guna2Panel10"
+        Me.Guna2Panel10.ShadowDecoration.Parent = Me.Guna2Panel10
+        Me.Guna2Panel10.Size = New System.Drawing.Size(377, 117)
+        Me.Guna2Panel10.TabIndex = 20
+        '
+        'BunifuCustomLabel12
+        '
+        Me.BunifuCustomLabel12.AutoSize = True
+        Me.BunifuCustomLabel12.BackColor = System.Drawing.Color.Transparent
+        Me.BunifuCustomLabel12.Font = New System.Drawing.Font("Century Gothic", 25.8!, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
+        Me.BunifuCustomLabel12.ForeColor = System.Drawing.SystemColors.ActiveCaptionText
+        Me.BunifuCustomLabel12.Location = New System.Drawing.Point(26, 51)
+        Me.BunifuCustomLabel12.Name = "BunifuCustomLabel12"
+        Me.BunifuCustomLabel12.Size = New System.Drawing.Size(70, 49)
+        Me.BunifuCustomLabel12.TabIndex = 17
+        Me.BunifuCustomLabel12.Text = "55"
+        '
+        'BunifuCustomLabel13
+        '
+        Me.BunifuCustomLabel13.AutoSize = True
+        Me.BunifuCustomLabel13.BackColor = System.Drawing.Color.Transparent
+        Me.BunifuCustomLabel13.Font = New System.Drawing.Font("Century Gothic", 15.0!, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
+        Me.BunifuCustomLabel13.ForeColor = System.Drawing.SystemColors.ActiveCaptionText
+        Me.BunifuCustomLabel13.Location = New System.Drawing.Point(30, 19)
+        Me.BunifuCustomLabel13.Name = "BunifuCustomLabel13"
+        Me.BunifuCustomLabel13.Size = New System.Drawing.Size(185, 29)
+        Me.BunifuCustomLabel13.TabIndex = 16
+        Me.BunifuCustomLabel13.Text = "Total Suppliers"
+        '
+        'Guna2PictureBox6
+        '
+        Me.Guna2PictureBox6.BackColor = System.Drawing.Color.Transparent
+        Me.Guna2PictureBox6.Image = Global.LibraryManagementSystemApp.My.Resources.Resources.members
+        Me.Guna2PictureBox6.Location = New System.Drawing.Point(277, 25)
+        Me.Guna2PictureBox6.Name = "Guna2PictureBox6"
+        Me.Guna2PictureBox6.ShadowDecoration.Parent = Me.Guna2PictureBox6
+        Me.Guna2PictureBox6.Size = New System.Drawing.Size(55, 52)
+        Me.Guna2PictureBox6.SizeMode = System.Windows.Forms.PictureBoxSizeMode.Zoom
+        Me.Guna2PictureBox6.TabIndex = 12
+        Me.Guna2PictureBox6.TabStop = False
+        '
         'Guna2Panel7
         '
         Me.Guna2Panel7.BorderRadius = 25
-        Me.Guna2Panel7.Controls.Add(Me.BunifuCustomLabel8)
-        Me.Guna2Panel7.Controls.Add(Me.BunifuCustomLabel9)
-        Me.Guna2Panel7.Controls.Add(Me.Guna2PictureBox4)
-        Me.Guna2Panel7.FillColor = System.Drawing.Color.FromArgb(CType(CType(63, Byte), Integer), CType(CType(140, Byte), Integer), CType(CType(225, Byte), Integer))
+        Me.Guna2Panel7.Controls.Add(Me.Guna2Panel13)
+        Me.Guna2Panel7.Controls.Add(Me.Guna2Panel12)
+        Me.Guna2Panel7.FillColor = System.Drawing.Color.FromArgb(CType(CType(55, Byte), Integer), CType(CType(58, Byte), Integer), CType(CType(66, Byte), Integer))
         Me.Guna2Panel7.Location = New System.Drawing.Point(457, 388)
         Me.Guna2Panel7.Name = "Guna2Panel7"
         Me.Guna2Panel7.ShadowDecoration.Parent = Me.Guna2Panel7
-        Me.Guna2Panel7.Size = New System.Drawing.Size(382, 357)
+        Me.Guna2Panel7.Size = New System.Drawing.Size(382, 377)
         Me.Guna2Panel7.TabIndex = 20
         '
-        'BunifuCustomLabel8
+        'Guna2Panel13
         '
-        Me.BunifuCustomLabel8.AutoSize = True
-        Me.BunifuCustomLabel8.BackColor = System.Drawing.Color.Transparent
-        Me.BunifuCustomLabel8.Font = New System.Drawing.Font("Century Gothic", 25.8!, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
-        Me.BunifuCustomLabel8.ForeColor = System.Drawing.SystemColors.ActiveCaptionText
-        Me.BunifuCustomLabel8.Location = New System.Drawing.Point(29, 89)
-        Me.BunifuCustomLabel8.Name = "BunifuCustomLabel8"
-        Me.BunifuCustomLabel8.Size = New System.Drawing.Size(154, 49)
-        Me.BunifuCustomLabel8.TabIndex = 17
-        Me.BunifuCustomLabel8.Text = "10,550"
+        Me.Guna2Panel13.BackColor = System.Drawing.Color.Transparent
+        Me.Guna2Panel13.BorderRadius = 25
+        Me.Guna2Panel13.Controls.Add(Me.BunifuCustomLabel18)
+        Me.Guna2Panel13.Controls.Add(Me.BunifuCustomLabel19)
+        Me.Guna2Panel13.Controls.Add(Me.Guna2PictureBox9)
+        Me.Guna2Panel13.FillColor = System.Drawing.Color.DarkTurquoise
+        Me.Guna2Panel13.Location = New System.Drawing.Point(19, 202)
+        Me.Guna2Panel13.Name = "Guna2Panel13"
+        Me.Guna2Panel13.ShadowDecoration.Parent = Me.Guna2Panel13
+        Me.Guna2Panel13.Size = New System.Drawing.Size(342, 155)
+        Me.Guna2Panel13.TabIndex = 21
         '
-        'BunifuCustomLabel9
+        'BunifuCustomLabel18
         '
-        Me.BunifuCustomLabel9.AutoSize = True
-        Me.BunifuCustomLabel9.BackColor = System.Drawing.Color.Transparent
-        Me.BunifuCustomLabel9.Font = New System.Drawing.Font("Century Gothic", 15.0!, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
-        Me.BunifuCustomLabel9.ForeColor = System.Drawing.SystemColors.ActiveCaptionText
-        Me.BunifuCustomLabel9.Location = New System.Drawing.Point(32, 28)
-        Me.BunifuCustomLabel9.Name = "BunifuCustomLabel9"
-        Me.BunifuCustomLabel9.Size = New System.Drawing.Size(149, 29)
-        Me.BunifuCustomLabel9.TabIndex = 16
-        Me.BunifuCustomLabel9.Text = "Total Books"
+        Me.BunifuCustomLabel18.AutoSize = True
+        Me.BunifuCustomLabel18.BackColor = System.Drawing.Color.Transparent
+        Me.BunifuCustomLabel18.Font = New System.Drawing.Font("Century Gothic", 25.8!, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
+        Me.BunifuCustomLabel18.ForeColor = System.Drawing.SystemColors.ActiveCaptionText
+        Me.BunifuCustomLabel18.Location = New System.Drawing.Point(20, 75)
+        Me.BunifuCustomLabel18.Name = "BunifuCustomLabel18"
+        Me.BunifuCustomLabel18.Size = New System.Drawing.Size(70, 49)
+        Me.BunifuCustomLabel18.TabIndex = 17
+        Me.BunifuCustomLabel18.Text = "10"
         '
-        'Guna2PictureBox4
+        'BunifuCustomLabel19
         '
-        Me.Guna2PictureBox4.BackColor = System.Drawing.Color.Transparent
-        Me.Guna2PictureBox4.Image = Global.LibraryManagementSystemApp.My.Resources.Resources.books
-        Me.Guna2PictureBox4.Location = New System.Drawing.Point(269, 28)
-        Me.Guna2PictureBox4.Name = "Guna2PictureBox4"
-        Me.Guna2PictureBox4.ShadowDecoration.Parent = Me.Guna2PictureBox4
-        Me.Guna2PictureBox4.Size = New System.Drawing.Size(55, 52)
-        Me.Guna2PictureBox4.SizeMode = System.Windows.Forms.PictureBoxSizeMode.Zoom
-        Me.Guna2PictureBox4.TabIndex = 12
-        Me.Guna2PictureBox4.TabStop = False
+        Me.BunifuCustomLabel19.AutoSize = True
+        Me.BunifuCustomLabel19.BackColor = System.Drawing.Color.Transparent
+        Me.BunifuCustomLabel19.Font = New System.Drawing.Font("Century Gothic", 15.0!, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
+        Me.BunifuCustomLabel19.ForeColor = System.Drawing.SystemColors.ActiveCaptionText
+        Me.BunifuCustomLabel19.Location = New System.Drawing.Point(24, 28)
+        Me.BunifuCustomLabel19.Name = "BunifuCustomLabel19"
+        Me.BunifuCustomLabel19.Size = New System.Drawing.Size(163, 29)
+        Me.BunifuCustomLabel19.TabIndex = 16
+        Me.BunifuCustomLabel19.Text = "Total Returns"
+        '
+        'Guna2PictureBox9
+        '
+        Me.Guna2PictureBox9.BackColor = System.Drawing.Color.Transparent
+        Me.Guna2PictureBox9.Image = Global.LibraryManagementSystemApp.My.Resources.Resources.members
+        Me.Guna2PictureBox9.Location = New System.Drawing.Point(256, 30)
+        Me.Guna2PictureBox9.Name = "Guna2PictureBox9"
+        Me.Guna2PictureBox9.ShadowDecoration.Parent = Me.Guna2PictureBox9
+        Me.Guna2PictureBox9.Size = New System.Drawing.Size(55, 52)
+        Me.Guna2PictureBox9.SizeMode = System.Windows.Forms.PictureBoxSizeMode.Zoom
+        Me.Guna2PictureBox9.TabIndex = 12
+        Me.Guna2PictureBox9.TabStop = False
+        '
+        'Guna2Panel12
+        '
+        Me.Guna2Panel12.BackColor = System.Drawing.Color.Transparent
+        Me.Guna2Panel12.BorderRadius = 25
+        Me.Guna2Panel12.Controls.Add(Me.BunifuCustomLabel16)
+        Me.Guna2Panel12.Controls.Add(Me.BunifuCustomLabel17)
+        Me.Guna2Panel12.Controls.Add(Me.Guna2PictureBox8)
+        Me.Guna2Panel12.FillColor = System.Drawing.Color.YellowGreen
+        Me.Guna2Panel12.Location = New System.Drawing.Point(19, 21)
+        Me.Guna2Panel12.Name = "Guna2Panel12"
+        Me.Guna2Panel12.ShadowDecoration.Parent = Me.Guna2Panel12
+        Me.Guna2Panel12.Size = New System.Drawing.Size(342, 162)
+        Me.Guna2Panel12.TabIndex = 20
+        '
+        'BunifuCustomLabel16
+        '
+        Me.BunifuCustomLabel16.AutoSize = True
+        Me.BunifuCustomLabel16.BackColor = System.Drawing.Color.Transparent
+        Me.BunifuCustomLabel16.Font = New System.Drawing.Font("Century Gothic", 25.8!, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
+        Me.BunifuCustomLabel16.ForeColor = System.Drawing.SystemColors.ActiveCaptionText
+        Me.BunifuCustomLabel16.Location = New System.Drawing.Point(20, 75)
+        Me.BunifuCustomLabel16.Name = "BunifuCustomLabel16"
+        Me.BunifuCustomLabel16.Size = New System.Drawing.Size(70, 49)
+        Me.BunifuCustomLabel16.TabIndex = 17
+        Me.BunifuCustomLabel16.Text = "10"
+        '
+        'BunifuCustomLabel17
+        '
+        Me.BunifuCustomLabel17.AutoSize = True
+        Me.BunifuCustomLabel17.BackColor = System.Drawing.Color.Transparent
+        Me.BunifuCustomLabel17.Font = New System.Drawing.Font("Century Gothic", 15.0!, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
+        Me.BunifuCustomLabel17.ForeColor = System.Drawing.SystemColors.ActiveCaptionText
+        Me.BunifuCustomLabel17.Location = New System.Drawing.Point(24, 28)
+        Me.BunifuCustomLabel17.Name = "BunifuCustomLabel17"
+        Me.BunifuCustomLabel17.Size = New System.Drawing.Size(147, 29)
+        Me.BunifuCustomLabel17.TabIndex = 16
+        Me.BunifuCustomLabel17.Text = "Total Issues"
+        '
+        'Guna2PictureBox8
+        '
+        Me.Guna2PictureBox8.BackColor = System.Drawing.Color.Transparent
+        Me.Guna2PictureBox8.Image = Global.LibraryManagementSystemApp.My.Resources.Resources.members
+        Me.Guna2PictureBox8.Location = New System.Drawing.Point(256, 30)
+        Me.Guna2PictureBox8.Name = "Guna2PictureBox8"
+        Me.Guna2PictureBox8.ShadowDecoration.Parent = Me.Guna2PictureBox8
+        Me.Guna2PictureBox8.Size = New System.Drawing.Size(55, 52)
+        Me.Guna2PictureBox8.SizeMode = System.Windows.Forms.PictureBoxSizeMode.Zoom
+        Me.Guna2PictureBox8.TabIndex = 12
+        Me.Guna2PictureBox8.TabStop = False
         '
         'Guna2Panel8
         '
@@ -569,11 +698,11 @@ Partial Class FormMain
         Me.Guna2Panel8.Controls.Add(Me.BunifuCustomLabel10)
         Me.Guna2Panel8.Controls.Add(Me.BunifuCustomLabel11)
         Me.Guna2Panel8.Controls.Add(Me.Guna2PictureBox5)
-        Me.Guna2Panel8.FillColor = System.Drawing.Color.FromArgb(CType(CType(108, Byte), Integer), CType(CType(93, Byte), Integer), CType(CType(211, Byte), Integer))
+        Me.Guna2Panel8.FillColor = System.Drawing.Color.Tomato
         Me.Guna2Panel8.Location = New System.Drawing.Point(34, 392)
         Me.Guna2Panel8.Name = "Guna2Panel8"
         Me.Guna2Panel8.ShadowDecoration.Parent = Me.Guna2Panel8
-        Me.Guna2Panel8.Size = New System.Drawing.Size(377, 159)
+        Me.Guna2Panel8.Size = New System.Drawing.Size(377, 117)
         Me.Guna2Panel8.TabIndex = 19
         '
         'BunifuCustomLabel10
@@ -582,11 +711,11 @@ Partial Class FormMain
         Me.BunifuCustomLabel10.BackColor = System.Drawing.Color.Transparent
         Me.BunifuCustomLabel10.Font = New System.Drawing.Font("Century Gothic", 25.8!, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
         Me.BunifuCustomLabel10.ForeColor = System.Drawing.SystemColors.ActiveCaptionText
-        Me.BunifuCustomLabel10.Location = New System.Drawing.Point(28, 89)
+        Me.BunifuCustomLabel10.Location = New System.Drawing.Point(26, 51)
         Me.BunifuCustomLabel10.Name = "BunifuCustomLabel10"
-        Me.BunifuCustomLabel10.Size = New System.Drawing.Size(130, 49)
+        Me.BunifuCustomLabel10.Size = New System.Drawing.Size(70, 49)
         Me.BunifuCustomLabel10.TabIndex = 17
-        Me.BunifuCustomLabel10.Text = "1,175"
+        Me.BunifuCustomLabel10.Text = "10"
         '
         'BunifuCustomLabel11
         '
@@ -594,17 +723,17 @@ Partial Class FormMain
         Me.BunifuCustomLabel11.BackColor = System.Drawing.Color.Transparent
         Me.BunifuCustomLabel11.Font = New System.Drawing.Font("Century Gothic", 15.0!, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
         Me.BunifuCustomLabel11.ForeColor = System.Drawing.SystemColors.ActiveCaptionText
-        Me.BunifuCustomLabel11.Location = New System.Drawing.Point(32, 28)
+        Me.BunifuCustomLabel11.Location = New System.Drawing.Point(30, 19)
         Me.BunifuCustomLabel11.Name = "BunifuCustomLabel11"
-        Me.BunifuCustomLabel11.Size = New System.Drawing.Size(189, 29)
+        Me.BunifuCustomLabel11.Size = New System.Drawing.Size(127, 29)
         Me.BunifuCustomLabel11.TabIndex = 16
-        Me.BunifuCustomLabel11.Text = "Total Members"
+        Me.BunifuCustomLabel11.Text = "Total Staff"
         '
         'Guna2PictureBox5
         '
         Me.Guna2PictureBox5.BackColor = System.Drawing.Color.Transparent
         Me.Guna2PictureBox5.Image = Global.LibraryManagementSystemApp.My.Resources.Resources.members
-        Me.Guna2PictureBox5.Location = New System.Drawing.Point(269, 28)
+        Me.Guna2PictureBox5.Location = New System.Drawing.Point(277, 25)
         Me.Guna2PictureBox5.Name = "Guna2PictureBox5"
         Me.Guna2PictureBox5.ShadowDecoration.Parent = Me.Guna2PictureBox5
         Me.Guna2PictureBox5.Size = New System.Drawing.Size(55, 52)
@@ -618,7 +747,7 @@ Partial Class FormMain
         Me.Guna2Panel6.Controls.Add(Me.BunifuCustomLabel6)
         Me.Guna2Panel6.Controls.Add(Me.BunifuCustomLabel7)
         Me.Guna2Panel6.Controls.Add(Me.Guna2PictureBox3)
-        Me.Guna2Panel6.FillColor = System.Drawing.Color.FromArgb(CType(CType(63, Byte), Integer), CType(CType(140, Byte), Integer), CType(CType(225, Byte), Integer))
+        Me.Guna2Panel6.FillColor = System.Drawing.Color.FromArgb(CType(CType(63, Byte), Integer), CType(CType(180, Byte), Integer), CType(CType(225, Byte), Integer))
         Me.Guna2Panel6.Location = New System.Drawing.Point(457, 184)
         Me.Guna2Panel6.Name = "Guna2Panel6"
         Me.Guna2Panel6.ShadowDecoration.Parent = Me.Guna2Panel6
@@ -653,10 +782,10 @@ Partial Class FormMain
         '
         Me.Guna2PictureBox3.BackColor = System.Drawing.Color.Transparent
         Me.Guna2PictureBox3.Image = Global.LibraryManagementSystemApp.My.Resources.Resources.books
-        Me.Guna2PictureBox3.Location = New System.Drawing.Point(269, 28)
+        Me.Guna2PictureBox3.Location = New System.Drawing.Point(265, 28)
         Me.Guna2PictureBox3.Name = "Guna2PictureBox3"
         Me.Guna2PictureBox3.ShadowDecoration.Parent = Me.Guna2PictureBox3
-        Me.Guna2PictureBox3.Size = New System.Drawing.Size(55, 52)
+        Me.Guna2PictureBox3.Size = New System.Drawing.Size(85, 89)
         Me.Guna2PictureBox3.SizeMode = System.Windows.Forms.PictureBoxSizeMode.Zoom
         Me.Guna2PictureBox3.TabIndex = 12
         Me.Guna2PictureBox3.TabStop = False
@@ -702,10 +831,10 @@ Partial Class FormMain
         '
         Me.Guna2PictureBox2.BackColor = System.Drawing.Color.Transparent
         Me.Guna2PictureBox2.Image = Global.LibraryManagementSystemApp.My.Resources.Resources.members
-        Me.Guna2PictureBox2.Location = New System.Drawing.Point(269, 28)
+        Me.Guna2PictureBox2.Location = New System.Drawing.Point(258, 28)
         Me.Guna2PictureBox2.Name = "Guna2PictureBox2"
         Me.Guna2PictureBox2.ShadowDecoration.Parent = Me.Guna2PictureBox2
-        Me.Guna2PictureBox2.Size = New System.Drawing.Size(55, 52)
+        Me.Guna2PictureBox2.Size = New System.Drawing.Size(85, 89)
         Me.Guna2PictureBox2.SizeMode = System.Windows.Forms.PictureBoxSizeMode.Zoom
         Me.Guna2PictureBox2.TabIndex = 12
         Me.Guna2PictureBox2.TabStop = False
@@ -734,8 +863,8 @@ Partial Class FormMain
         '
         'Guna2Panel9
         '
+        Me.Guna2Panel9.Controls.Add(Me.Guna2Panel14)
         Me.Guna2Panel9.Controls.Add(Me.Label10)
-        Me.Guna2Panel9.Controls.Add(Me.Label1)
         Me.Guna2Panel9.Controls.Add(Me.Guna2TextBox1)
         Me.Guna2Panel9.CustomBorderColor = System.Drawing.Color.FromArgb(CType(CType(55, Byte), Integer), CType(CType(58, Byte), Integer), CType(CType(66, Byte), Integer))
         Me.Guna2Panel9.CustomBorderThickness = New System.Windows.Forms.Padding(1, 0, 0, 0)
@@ -744,7 +873,34 @@ Partial Class FormMain
         Me.Guna2Panel9.Name = "Guna2Panel9"
         Me.Guna2Panel9.ShadowDecoration.Parent = Me.Guna2Panel9
         Me.Guna2Panel9.Size = New System.Drawing.Size(356, 790)
-        Me.Guna2Panel9.TabIndex = 20
+        Me.Guna2Panel9.TabIndex = 22
+        '
+        'Guna2Panel14
+        '
+        Me.Guna2Panel14.BorderColor = System.Drawing.Color.FromArgb(CType(CType(121, Byte), Integer), CType(CType(123, Byte), Integer), CType(CType(129, Byte), Integer))
+        Me.Guna2Panel14.BorderRadius = 25
+        Me.Guna2Panel14.BorderStyle = System.Drawing.Drawing2D.DashStyle.Dash
+        Me.Guna2Panel14.BorderThickness = 2
+        Me.Guna2Panel14.Controls.Add(Me.Label1)
+        Me.Guna2Panel14.FillColor = System.Drawing.Color.FromArgb(CType(CType(55, Byte), Integer), CType(CType(58, Byte), Integer), CType(CType(66, Byte), Integer))
+        Me.Guna2Panel14.Location = New System.Drawing.Point(15, 565)
+        Me.Guna2Panel14.Name = "Guna2Panel14"
+        Me.Guna2Panel14.ShadowDecoration.Parent = Me.Guna2Panel14
+        Me.Guna2Panel14.Size = New System.Drawing.Size(329, 200)
+        Me.Guna2Panel14.TabIndex = 25
+        '
+        'Label1
+        '
+        Me.Label1.AutoSize = True
+        Me.Label1.BackColor = System.Drawing.Color.Transparent
+        Me.Label1.Font = New System.Drawing.Font("Segoe Print", 10.8!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
+        Me.Label1.ForeColor = System.Drawing.Color.White
+        Me.Label1.Location = New System.Drawing.Point(12, 18)
+        Me.Label1.Name = "Label1"
+        Me.Label1.Size = New System.Drawing.Size(304, 165)
+        Me.Label1.TabIndex = 0
+        Me.Label1.Text = """A library is a house of hope. " & Global.Microsoft.VisualBasic.ChrW(13) & Global.Microsoft.VisualBasic.ChrW(10) & "It’s a place where we all, " & Global.Microsoft.VisualBasic.ChrW(13) & Global.Microsoft.VisualBasic.ChrW(10) & "whatever our situat" &
+    "ion, can " & Global.Microsoft.VisualBasic.ChrW(13) & Global.Microsoft.VisualBasic.ChrW(10) & "feed our ideas and " & Global.Microsoft.VisualBasic.ChrW(13) & Global.Microsoft.VisualBasic.ChrW(10) & "develop our dreams."" "
         '
         'Label10
         '
@@ -759,19 +915,6 @@ Partial Class FormMain
         Me.Label10.Size = New System.Drawing.Size(304, 30)
         Me.Label10.TabIndex = 24
         Me.Label10.Text = "Current data & time"
-        '
-        'Label1
-        '
-        Me.Label1.AutoSize = True
-        Me.Label1.BackColor = System.Drawing.Color.Transparent
-        Me.Label1.Font = New System.Drawing.Font("Segoe Print", 10.8!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
-        Me.Label1.ForeColor = System.Drawing.Color.White
-        Me.Label1.Location = New System.Drawing.Point(32, 554)
-        Me.Label1.Name = "Label1"
-        Me.Label1.Size = New System.Drawing.Size(304, 165)
-        Me.Label1.TabIndex = 0
-        Me.Label1.Text = """A library is a house of hope. " & Global.Microsoft.VisualBasic.ChrW(13) & Global.Microsoft.VisualBasic.ChrW(10) & "It’s a place where we all, " & Global.Microsoft.VisualBasic.ChrW(13) & Global.Microsoft.VisualBasic.ChrW(10) & "whatever our situat" &
-    "ion, can " & Global.Microsoft.VisualBasic.ChrW(13) & Global.Microsoft.VisualBasic.ChrW(10) & "feed our ideas and " & Global.Microsoft.VisualBasic.ChrW(13) & Global.Microsoft.VisualBasic.ChrW(10) & "develop our dreams."" "
         '
         'Guna2TextBox1
         '
@@ -824,12 +967,19 @@ Partial Class FormMain
         Me.Guna2Panel3.ResumeLayout(False)
         Me.Guna2Panel4.ResumeLayout(False)
         Me.Guna2Panel4.PerformLayout()
+        Me.Guna2Panel11.ResumeLayout(False)
+        Me.Guna2Panel11.PerformLayout()
+        CType(Me.Guna2PictureBox7, System.ComponentModel.ISupportInitialize).EndInit()
         Me.Guna2Panel10.ResumeLayout(False)
         Me.Guna2Panel10.PerformLayout()
-        CType(Me.Guna2PictureBox7, System.ComponentModel.ISupportInitialize).EndInit()
+        CType(Me.Guna2PictureBox6, System.ComponentModel.ISupportInitialize).EndInit()
         Me.Guna2Panel7.ResumeLayout(False)
-        Me.Guna2Panel7.PerformLayout()
-        CType(Me.Guna2PictureBox4, System.ComponentModel.ISupportInitialize).EndInit()
+        Me.Guna2Panel13.ResumeLayout(False)
+        Me.Guna2Panel13.PerformLayout()
+        CType(Me.Guna2PictureBox9, System.ComponentModel.ISupportInitialize).EndInit()
+        Me.Guna2Panel12.ResumeLayout(False)
+        Me.Guna2Panel12.PerformLayout()
+        CType(Me.Guna2PictureBox8, System.ComponentModel.ISupportInitialize).EndInit()
         Me.Guna2Panel8.ResumeLayout(False)
         Me.Guna2Panel8.PerformLayout()
         CType(Me.Guna2PictureBox5, System.ComponentModel.ISupportInitialize).EndInit()
@@ -841,6 +991,8 @@ Partial Class FormMain
         CType(Me.Guna2PictureBox2, System.ComponentModel.ISupportInitialize).EndInit()
         Me.Guna2Panel9.ResumeLayout(False)
         Me.Guna2Panel9.PerformLayout()
+        Me.Guna2Panel14.ResumeLayout(False)
+        Me.Guna2Panel14.PerformLayout()
         Me.ResumeLayout(False)
 
     End Sub
@@ -867,14 +1019,23 @@ Partial Class FormMain
     Friend WithEvents Guna2PictureBox1 As Guna.UI2.WinForms.Guna2PictureBox
     Friend WithEvents Guna2Panel3 As Guna.UI2.WinForms.Guna2Panel
     Friend WithEvents Guna2Panel4 As Guna.UI2.WinForms.Guna2Panel
-    Friend WithEvents Guna2Panel10 As Guna.UI2.WinForms.Guna2Panel
+    Friend WithEvents Guna2Panel11 As Guna.UI2.WinForms.Guna2Panel
     Friend WithEvents BunifuCustomLabel14 As Bunifu.Framework.UI.BunifuCustomLabel
     Friend WithEvents BunifuCustomLabel15 As Bunifu.Framework.UI.BunifuCustomLabel
     Friend WithEvents Guna2PictureBox7 As Guna.UI2.WinForms.Guna2PictureBox
+    Friend WithEvents Guna2Panel10 As Guna.UI2.WinForms.Guna2Panel
+    Friend WithEvents BunifuCustomLabel12 As Bunifu.Framework.UI.BunifuCustomLabel
+    Friend WithEvents BunifuCustomLabel13 As Bunifu.Framework.UI.BunifuCustomLabel
+    Friend WithEvents Guna2PictureBox6 As Guna.UI2.WinForms.Guna2PictureBox
     Friend WithEvents Guna2Panel7 As Guna.UI2.WinForms.Guna2Panel
-    Friend WithEvents BunifuCustomLabel8 As Bunifu.Framework.UI.BunifuCustomLabel
-    Friend WithEvents BunifuCustomLabel9 As Bunifu.Framework.UI.BunifuCustomLabel
-    Friend WithEvents Guna2PictureBox4 As Guna.UI2.WinForms.Guna2PictureBox
+    Friend WithEvents Guna2Panel13 As Guna.UI2.WinForms.Guna2Panel
+    Friend WithEvents BunifuCustomLabel18 As Bunifu.Framework.UI.BunifuCustomLabel
+    Friend WithEvents BunifuCustomLabel19 As Bunifu.Framework.UI.BunifuCustomLabel
+    Friend WithEvents Guna2PictureBox9 As Guna.UI2.WinForms.Guna2PictureBox
+    Friend WithEvents Guna2Panel12 As Guna.UI2.WinForms.Guna2Panel
+    Friend WithEvents BunifuCustomLabel16 As Bunifu.Framework.UI.BunifuCustomLabel
+    Friend WithEvents BunifuCustomLabel17 As Bunifu.Framework.UI.BunifuCustomLabel
+    Friend WithEvents Guna2PictureBox8 As Guna.UI2.WinForms.Guna2PictureBox
     Friend WithEvents Guna2Panel8 As Guna.UI2.WinForms.Guna2Panel
     Friend WithEvents BunifuCustomLabel10 As Bunifu.Framework.UI.BunifuCustomLabel
     Friend WithEvents BunifuCustomLabel11 As Bunifu.Framework.UI.BunifuCustomLabel
@@ -890,7 +1051,8 @@ Partial Class FormMain
     Friend WithEvents BunifuCustomLabel3 As Bunifu.Framework.UI.BunifuCustomLabel
     Friend WithEvents BunifuCustomLabel2 As Bunifu.Framework.UI.BunifuCustomLabel
     Friend WithEvents Guna2Panel9 As Guna.UI2.WinForms.Guna2Panel
-    Friend WithEvents Label10 As Label
+    Friend WithEvents Guna2Panel14 As Guna.UI2.WinForms.Guna2Panel
     Friend WithEvents Label1 As Label
+    Friend WithEvents Label10 As Label
     Friend WithEvents Guna2TextBox1 As Guna.UI2.WinForms.Guna2TextBox
 End Class

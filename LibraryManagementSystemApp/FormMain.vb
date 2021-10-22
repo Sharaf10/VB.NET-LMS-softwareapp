@@ -52,6 +52,8 @@
     Private Sub Guna2Button9_Click(sender As Object, e As EventArgs) Handles btnlogout.Click
         Me.Close()
         FormLogin.Show()
+        FormLogin.txtusername.Clear()
+        FormLogin.txtpassword.Clear()
     End Sub
 
 End Class
