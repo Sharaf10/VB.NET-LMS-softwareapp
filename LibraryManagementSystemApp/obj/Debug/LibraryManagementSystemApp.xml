@@ -22,7 +22,32 @@ LibraryManagementSystemApp
   resource lookups using this strongly typed resource class.
 </summary>
 </member>
+<member name="P:LibraryManagementSystemApp.My.Resources.Resources._return">
+<summary>
+  Looks up a localized resource of type System.Drawing.Bitmap.
+</summary>
+</member>
 <member name="P:LibraryManagementSystemApp.My.Resources.Resources.book">
+<summary>
+  Looks up a localized resource of type System.Drawing.Bitmap.
+</summary>
+</member>
+<member name="P:LibraryManagementSystemApp.My.Resources.Resources.book_overlay_grey_">
+<summary>
+  Looks up a localized resource of type System.Drawing.Bitmap.
+</summary>
+</member>
+<member name="P:LibraryManagementSystemApp.My.Resources.Resources.book_overlay_white_">
+<summary>
+  Looks up a localized resource of type System.Drawing.Bitmap.
+</summary>
+</member>
+<member name="P:LibraryManagementSystemApp.My.Resources.Resources.book_return_overlay_grey_">
+<summary>
+  Looks up a localized resource of type System.Drawing.Bitmap.
+</summary>
+</member>
+<member name="P:LibraryManagementSystemApp.My.Resources.Resources.book_return_overlay_white_">
 <summary>
   Looks up a localized resource of type System.Drawing.Bitmap.
 </summary>
@@ -42,7 +67,37 @@ LibraryManagementSystemApp
   Looks up a localized resource of type System.Drawing.Bitmap.
 </summary>
 </member>
+<member name="P:LibraryManagementSystemApp.My.Resources.Resources.books__overlay_grey_">
+<summary>
+  Looks up a localized resource of type System.Drawing.Bitmap.
+</summary>
+</member>
+<member name="P:LibraryManagementSystemApp.My.Resources.Resources.books__overlay_white_">
+<summary>
+  Looks up a localized resource of type System.Drawing.Bitmap.
+</summary>
+</member>
+<member name="P:LibraryManagementSystemApp.My.Resources.Resources.home_new">
+<summary>
+  Looks up a localized resource of type System.Drawing.Bitmap.
+</summary>
+</member>
+<member name="P:LibraryManagementSystemApp.My.Resources.Resources.home_new_before">
+<summary>
+  Looks up a localized resource of type System.Drawing.Bitmap.
+</summary>
+</member>
 <member name="P:LibraryManagementSystemApp.My.Resources.Resources.home1">
+<summary>
+  Looks up a localized resource of type System.Drawing.Bitmap.
+</summary>
+</member>
+<member name="P:LibraryManagementSystemApp.My.Resources.Resources.information_button">
+<summary>
+  Looks up a localized resource of type System.Drawing.Bitmap.
+</summary>
+</member>
+<member name="P:LibraryManagementSystemApp.My.Resources.Resources.information_button_before">
 <summary>
   Looks up a localized resource of type System.Drawing.Bitmap.
 </summary>
@@ -57,7 +112,22 @@ LibraryManagementSystemApp
   Looks up a localized resource of type System.Drawing.Bitmap.
 </summary>
 </member>
+<member name="P:LibraryManagementSystemApp.My.Resources.Resources.logout__overlay_grey_">
+<summary>
+  Looks up a localized resource of type System.Drawing.Bitmap.
+</summary>
+</member>
+<member name="P:LibraryManagementSystemApp.My.Resources.Resources.logout__overlay_white_">
+<summary>
+  Looks up a localized resource of type System.Drawing.Bitmap.
+</summary>
+</member>
 <member name="P:LibraryManagementSystemApp.My.Resources.Resources.members">
+<summary>
+  Looks up a localized resource of type System.Drawing.Bitmap.
+</summary>
+</member>
+<member name="P:LibraryManagementSystemApp.My.Resources.Resources.report">
 <summary>
   Looks up a localized resource of type System.Drawing.Bitmap.
 </summary>
@@ -72,6 +142,16 @@ LibraryManagementSystemApp
   Looks up a localized resource of type System.Drawing.Bitmap.
 </summary>
 </member>
+<member name="P:LibraryManagementSystemApp.My.Resources.Resources.staff__overlay_grey_">
+<summary>
+  Looks up a localized resource of type System.Drawing.Bitmap.
+</summary>
+</member>
+<member name="P:LibraryManagementSystemApp.My.Resources.Resources.staff__overlay_white_">
+<summary>
+  Looks up a localized resource of type System.Drawing.Bitmap.
+</summary>
+</member>
 <member name="P:LibraryManagementSystemApp.My.Resources.Resources.staff2">
 <summary>
   Looks up a localized resource of type System.Drawing.Bitmap.
@@ -82,7 +162,27 @@ LibraryManagementSystemApp
   Looks up a localized resource of type System.Drawing.Bitmap.
 </summary>
 </member>
+<member name="P:LibraryManagementSystemApp.My.Resources.Resources.student_overlay_grey_">
+<summary>
+  Looks up a localized resource of type System.Drawing.Bitmap.
+</summary>
+</member>
+<member name="P:LibraryManagementSystemApp.My.Resources.Resources.student_overlay_white_">
+<summary>
+  Looks up a localized resource of type System.Drawing.Bitmap.
+</summary>
+</member>
 <member name="P:LibraryManagementSystemApp.My.Resources.Resources.Suppliers">
+<summary>
+  Looks up a localized resource of type System.Drawing.Bitmap.
+</summary>
+</member>
+<member name="P:LibraryManagementSystemApp.My.Resources.Resources.Suppliers_overlay_grey_">
+<summary>
+  Looks up a localized resource of type System.Drawing.Bitmap.
+</summary>
+</member>
+<member name="P:LibraryManagementSystemApp.My.Resources.Resources.Suppliers_overlay_white_">
 <summary>
   Looks up a localized resource of type System.Drawing.Bitmap.
 </summary>

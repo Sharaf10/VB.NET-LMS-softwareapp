@@ -34,9 +34,10 @@ Partial Class FormLogin
         Me.txtpassword = New Guna.UI2.WinForms.Guna2TextBox()
         Me.Label3 = New System.Windows.Forms.Label()
         Me.Label2 = New System.Windows.Forms.Label()
-        Me.Label4 = New System.Windows.Forms.Label()
-        Me.Guna2PictureBox1 = New Guna.UI2.WinForms.Guna2PictureBox()
         Me.BackgroundWorker1 = New System.ComponentModel.BackgroundWorker()
+        Me.Guna2PictureBox1 = New Guna.UI2.WinForms.Guna2PictureBox()
+        Me.Guna2CustomCheckBox1 = New Guna.UI2.WinForms.Guna2CustomCheckBox()
+        Me.BunifuCustomLabel1 = New Bunifu.Framework.UI.BunifuCustomLabel()
         Me.Guna2Panel2.SuspendLayout()
         CType(Me.Guna2PictureBox1, System.ComponentModel.ISupportInitialize).BeginInit()
         Me.SuspendLayout()
@@ -53,7 +54,7 @@ Partial Class FormLogin
         Me.Guna2ControlBox3.FillColor = System.Drawing.Color.FromArgb(CType(CType(35, Byte), Integer), CType(CType(38, Byte), Integer), CType(CType(47, Byte), Integer))
         Me.Guna2ControlBox3.HoverState.Parent = Me.Guna2ControlBox3
         Me.Guna2ControlBox3.IconColor = System.Drawing.Color.White
-        Me.Guna2ControlBox3.Location = New System.Drawing.Point(614, 0)
+        Me.Guna2ControlBox3.Location = New System.Drawing.Point(626, 0)
         Me.Guna2ControlBox3.Name = "Guna2ControlBox3"
         Me.Guna2ControlBox3.ShadowDecoration.Parent = Me.Guna2ControlBox3
         Me.Guna2ControlBox3.Size = New System.Drawing.Size(51, 39)
@@ -68,7 +69,7 @@ Partial Class FormLogin
         Me.Guna2ControlBox1.HoverState.FillColor = System.Drawing.Color.FromArgb(CType(CType(255, Byte), Integer), CType(CType(128, Byte), Integer), CType(CType(128, Byte), Integer))
         Me.Guna2ControlBox1.HoverState.Parent = Me.Guna2ControlBox1
         Me.Guna2ControlBox1.IconColor = System.Drawing.Color.White
-        Me.Guna2ControlBox1.Location = New System.Drawing.Point(669, -1)
+        Me.Guna2ControlBox1.Location = New System.Drawing.Point(681, -1)
         Me.Guna2ControlBox1.Name = "Guna2ControlBox1"
         Me.Guna2ControlBox1.ShadowDecoration.Parent = Me.Guna2ControlBox1
         Me.Guna2ControlBox1.Size = New System.Drawing.Size(46, 40)
@@ -84,7 +85,7 @@ Partial Class FormLogin
         Me.Guna2Panel2.Location = New System.Drawing.Point(0, 0)
         Me.Guna2Panel2.Name = "Guna2Panel2"
         Me.Guna2Panel2.ShadowDecoration.Parent = Me.Guna2Panel2
-        Me.Guna2Panel2.Size = New System.Drawing.Size(717, 41)
+        Me.Guna2Panel2.Size = New System.Drawing.Size(729, 41)
         Me.Guna2Panel2.TabIndex = 1
         '
         'Label1
@@ -105,15 +106,15 @@ Partial Class FormLogin
         Me.btnlogin.CheckedState.Parent = Me.btnlogin
         Me.btnlogin.CustomImages.Parent = Me.btnlogin
         Me.btnlogin.FillColor = System.Drawing.Color.FromArgb(CType(CType(94, Byte), Integer), CType(CType(148, Byte), Integer), CType(CType(200, Byte), Integer))
-        Me.btnlogin.Font = New System.Drawing.Font("Segoe UI", 10.2!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
+        Me.btnlogin.Font = New System.Drawing.Font("Segoe UI Semibold", 10.8!, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
         Me.btnlogin.ForeColor = System.Drawing.Color.White
         Me.btnlogin.HoverState.FillColor = System.Drawing.Color.White
         Me.btnlogin.HoverState.ForeColor = System.Drawing.Color.FromArgb(CType(CType(94, Byte), Integer), CType(CType(148, Byte), Integer), CType(CType(200, Byte), Integer))
         Me.btnlogin.HoverState.Parent = Me.btnlogin
-        Me.btnlogin.Location = New System.Drawing.Point(320, 371)
+        Me.btnlogin.Location = New System.Drawing.Point(240, 403)
         Me.btnlogin.Name = "btnlogin"
         Me.btnlogin.ShadowDecoration.Parent = Me.btnlogin
-        Me.btnlogin.Size = New System.Drawing.Size(109, 45)
+        Me.btnlogin.Size = New System.Drawing.Size(134, 45)
         Me.btnlogin.TabIndex = 18
         Me.btnlogin.Text = "Login"
         '
@@ -124,15 +125,15 @@ Partial Class FormLogin
         Me.btncancel.CheckedState.Parent = Me.btncancel
         Me.btncancel.CustomImages.Parent = Me.btncancel
         Me.btncancel.FillColor = System.Drawing.Color.FromArgb(CType(CType(255, Byte), Integer), CType(CType(128, Byte), Integer), CType(CType(128, Byte), Integer))
-        Me.btncancel.Font = New System.Drawing.Font("Segoe UI", 10.2!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
+        Me.btncancel.Font = New System.Drawing.Font("Segoe UI Semibold", 10.8!, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
         Me.btncancel.ForeColor = System.Drawing.Color.White
         Me.btncancel.HoverState.FillColor = System.Drawing.Color.White
         Me.btncancel.HoverState.ForeColor = System.Drawing.Color.FromArgb(CType(CType(255, Byte), Integer), CType(CType(128, Byte), Integer), CType(CType(128, Byte), Integer))
         Me.btncancel.HoverState.Parent = Me.btncancel
-        Me.btncancel.Location = New System.Drawing.Point(484, 371)
+        Me.btncancel.Location = New System.Drawing.Point(426, 403)
         Me.btncancel.Name = "btncancel"
         Me.btncancel.ShadowDecoration.Parent = Me.btncancel
-        Me.btncancel.Size = New System.Drawing.Size(109, 45)
+        Me.btncancel.Size = New System.Drawing.Size(134, 45)
         Me.btncancel.TabIndex = 19
         Me.btncancel.Text = "Cancel"
         '
@@ -151,17 +152,18 @@ Partial Class FormLogin
         Me.txtusername.FillColor = System.Drawing.Color.FromArgb(CType(CType(35, Byte), Integer), CType(CType(50, Byte), Integer), CType(CType(80, Byte), Integer))
         Me.txtusername.FocusedState.BorderColor = System.Drawing.Color.FromArgb(CType(CType(94, Byte), Integer), CType(CType(148, Byte), Integer), CType(CType(255, Byte), Integer))
         Me.txtusername.FocusedState.Parent = Me.txtusername
-        Me.txtusername.Font = New System.Drawing.Font("Segoe UI", 10.2!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
+        Me.txtusername.Font = New System.Drawing.Font("Segoe UI", 10.8!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
+        Me.txtusername.ForeColor = System.Drawing.Color.White
         Me.txtusername.HoverState.BorderColor = System.Drawing.Color.FromArgb(CType(CType(94, Byte), Integer), CType(CType(148, Byte), Integer), CType(CType(255, Byte), Integer))
         Me.txtusername.HoverState.Parent = Me.txtusername
-        Me.txtusername.Location = New System.Drawing.Point(363, 202)
-        Me.txtusername.Margin = New System.Windows.Forms.Padding(6, 7, 6, 7)
+        Me.txtusername.Location = New System.Drawing.Point(373, 199)
+        Me.txtusername.Margin = New System.Windows.Forms.Padding(7, 8, 7, 8)
         Me.txtusername.Name = "txtusername"
         Me.txtusername.PasswordChar = Global.Microsoft.VisualBasic.ChrW(0)
         Me.txtusername.PlaceholderText = "Enter Username"
         Me.txtusername.SelectedText = ""
         Me.txtusername.ShadowDecoration.Parent = Me.txtusername
-        Me.txtusername.Size = New System.Drawing.Size(297, 48)
+        Me.txtusername.Size = New System.Drawing.Size(274, 52)
         Me.txtusername.TabIndex = 20
         '
         'txtpassword
@@ -179,17 +181,18 @@ Partial Class FormLogin
         Me.txtpassword.FillColor = System.Drawing.Color.FromArgb(CType(CType(35, Byte), Integer), CType(CType(50, Byte), Integer), CType(CType(80, Byte), Integer))
         Me.txtpassword.FocusedState.BorderColor = System.Drawing.Color.FromArgb(CType(CType(94, Byte), Integer), CType(CType(148, Byte), Integer), CType(CType(255, Byte), Integer))
         Me.txtpassword.FocusedState.Parent = Me.txtpassword
-        Me.txtpassword.Font = New System.Drawing.Font("Segoe UI", 10.2!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
+        Me.txtpassword.Font = New System.Drawing.Font("Segoe UI", 10.8!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
+        Me.txtpassword.ForeColor = System.Drawing.Color.White
         Me.txtpassword.HoverState.BorderColor = System.Drawing.Color.FromArgb(CType(CType(94, Byte), Integer), CType(CType(148, Byte), Integer), CType(CType(255, Byte), Integer))
         Me.txtpassword.HoverState.Parent = Me.txtpassword
-        Me.txtpassword.Location = New System.Drawing.Point(363, 281)
-        Me.txtpassword.Margin = New System.Windows.Forms.Padding(6, 7, 6, 7)
+        Me.txtpassword.Location = New System.Drawing.Point(373, 284)
+        Me.txtpassword.Margin = New System.Windows.Forms.Padding(7, 8, 7, 8)
         Me.txtpassword.Name = "txtpassword"
         Me.txtpassword.PasswordChar = Global.Microsoft.VisualBasic.ChrW(0)
         Me.txtpassword.PlaceholderText = "Enter Password"
         Me.txtpassword.SelectedText = ""
         Me.txtpassword.ShadowDecoration.Parent = Me.txtpassword
-        Me.txtpassword.Size = New System.Drawing.Size(297, 48)
+        Me.txtpassword.Size = New System.Drawing.Size(274, 52)
         Me.txtpassword.TabIndex = 21
         '
         'Label3
@@ -214,17 +217,6 @@ Partial Class FormLogin
         Me.Label2.TabIndex = 22
         Me.Label2.Text = "Username :"
         '
-        'Label4
-        '
-        Me.Label4.AutoSize = True
-        Me.Label4.Font = New System.Drawing.Font("Century Gothic", 18.0!, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
-        Me.Label4.ForeColor = System.Drawing.SystemColors.ButtonHighlight
-        Me.Label4.Location = New System.Drawing.Point(258, 56)
-        Me.Label4.Name = "Label4"
-        Me.Label4.Size = New System.Drawing.Size(195, 37)
-        Me.Label4.TabIndex = 24
-        Me.Label4.Text = "Readerware"
-        '
         'Guna2PictureBox1
         '
         Me.Guna2PictureBox1.Image = Global.LibraryManagementSystemApp.My.Resources.Resources.Logo
@@ -236,13 +228,43 @@ Partial Class FormLogin
         Me.Guna2PictureBox1.TabIndex = 17
         Me.Guna2PictureBox1.TabStop = False
         '
+        'Guna2CustomCheckBox1
+        '
+        Me.Guna2CustomCheckBox1.CheckedState.BorderColor = System.Drawing.Color.FromArgb(CType(CType(94, Byte), Integer), CType(CType(148, Byte), Integer), CType(CType(255, Byte), Integer))
+        Me.Guna2CustomCheckBox1.CheckedState.BorderRadius = 2
+        Me.Guna2CustomCheckBox1.CheckedState.BorderThickness = 0
+        Me.Guna2CustomCheckBox1.CheckedState.FillColor = System.Drawing.Color.FromArgb(CType(CType(94, Byte), Integer), CType(CType(148, Byte), Integer), CType(CType(255, Byte), Integer))
+        Me.Guna2CustomCheckBox1.CheckedState.Parent = Me.Guna2CustomCheckBox1
+        Me.Guna2CustomCheckBox1.Location = New System.Drawing.Point(384, 349)
+        Me.Guna2CustomCheckBox1.Name = "Guna2CustomCheckBox1"
+        Me.Guna2CustomCheckBox1.ShadowDecoration.Parent = Me.Guna2CustomCheckBox1
+        Me.Guna2CustomCheckBox1.Size = New System.Drawing.Size(23, 22)
+        Me.Guna2CustomCheckBox1.TabIndex = 24
+        Me.Guna2CustomCheckBox1.UncheckedState.BorderColor = System.Drawing.Color.FromArgb(CType(CType(125, Byte), Integer), CType(CType(137, Byte), Integer), CType(CType(149, Byte), Integer))
+        Me.Guna2CustomCheckBox1.UncheckedState.BorderRadius = 2
+        Me.Guna2CustomCheckBox1.UncheckedState.BorderThickness = 0
+        Me.Guna2CustomCheckBox1.UncheckedState.FillColor = System.Drawing.Color.FromArgb(CType(CType(125, Byte), Integer), CType(CType(137, Byte), Integer), CType(CType(149, Byte), Integer))
+        Me.Guna2CustomCheckBox1.UncheckedState.Parent = Me.Guna2CustomCheckBox1
+        '
+        'BunifuCustomLabel1
+        '
+        Me.BunifuCustomLabel1.AutoSize = True
+        Me.BunifuCustomLabel1.Font = New System.Drawing.Font("Segoe UI", 10.2!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
+        Me.BunifuCustomLabel1.ForeColor = System.Drawing.SystemColors.ActiveCaption
+        Me.BunifuCustomLabel1.Location = New System.Drawing.Point(413, 349)
+        Me.BunifuCustomLabel1.Name = "BunifuCustomLabel1"
+        Me.BunifuCustomLabel1.Size = New System.Drawing.Size(126, 23)
+        Me.BunifuCustomLabel1.TabIndex = 25
+        Me.BunifuCustomLabel1.Text = "Show Password"
+        '
         'FormLogin
         '
         Me.AutoScaleDimensions = New System.Drawing.SizeF(8.0!, 16.0!)
         Me.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font
         Me.BackColor = System.Drawing.Color.FromArgb(CType(CType(35, Byte), Integer), CType(CType(38, Byte), Integer), CType(CType(47, Byte), Integer))
-        Me.ClientSize = New System.Drawing.Size(717, 480)
-        Me.Controls.Add(Me.Label4)
+        Me.ClientSize = New System.Drawing.Size(729, 506)
+        Me.Controls.Add(Me.BunifuCustomLabel1)
+        Me.Controls.Add(Me.Guna2CustomCheckBox1)
         Me.Controls.Add(Me.Label3)
         Me.Controls.Add(Me.Label2)
         Me.Controls.Add(Me.txtpassword)
@@ -275,6 +297,7 @@ Partial Class FormLogin
     Friend WithEvents btnlogin As Guna.UI2.WinForms.Guna2Button
     Friend WithEvents Label3 As Label
     Friend WithEvents Label2 As Label
-    Friend WithEvents Label4 As Label
     Friend WithEvents BackgroundWorker1 As System.ComponentModel.BackgroundWorker
+    Friend WithEvents BunifuCustomLabel1 As Bunifu.Framework.UI.BunifuCustomLabel
+    Friend WithEvents Guna2CustomCheckBox1 As Guna.UI2.WinForms.Guna2CustomCheckBox
 End Class
