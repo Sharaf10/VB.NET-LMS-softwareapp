@@ -377,7 +377,7 @@ Public Class FormMain
 
     End Sub
 
-    Private Sub txtsearch_TextChanged(sender As Object, e As EventArgs) Handles txtsearch.TextChanged
+    Private Sub txtsearch_TextChanged(sender As Object, e As EventArgs)
     End Sub
 
     Private Sub btnsettings_Click_1(sender As Object, e As EventArgs) Handles btnsettings.Click

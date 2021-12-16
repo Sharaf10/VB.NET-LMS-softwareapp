@@ -45,7 +45,6 @@ Partial Class FormMain
         Me.Guna2Panel9 = New Guna.UI2.WinForms.Guna2Panel()
         Me.Guna2Panel14 = New Guna.UI2.WinForms.Guna2Panel()
         Me.Label1 = New System.Windows.Forms.Label()
-        Me.txtsearch = New Guna.UI2.WinForms.Guna2TextBox()
         Me.BunifuCustomLabel2 = New Bunifu.Framework.UI.BunifuCustomLabel()
         Me.BunifuCustomLabel3 = New Bunifu.Framework.UI.BunifuCustomLabel()
         Me.Guna2Panel5 = New Guna.UI2.WinForms.Guna2Panel()
@@ -471,7 +470,6 @@ Partial Class FormMain
         '
         Me.Guna2Panel9.Controls.Add(Me.Guna2Panel14)
         Me.Guna2Panel9.Controls.Add(Me.Label10)
-        Me.Guna2Panel9.Controls.Add(Me.txtsearch)
         Me.Guna2Panel9.CustomBorderColor = System.Drawing.Color.FromArgb(CType(CType(55, Byte), Integer), CType(CType(58, Byte), Integer), CType(CType(66, Byte), Integer))
         Me.Guna2Panel9.CustomBorderThickness = New System.Windows.Forms.Padding(1, 0, 0, 0)
         Me.Guna2Panel9.Dock = System.Windows.Forms.DockStyle.Right
@@ -507,36 +505,6 @@ Partial Class FormMain
         Me.Label1.TabIndex = 0
         Me.Label1.Text = """A library is a house of hope. " & Global.Microsoft.VisualBasic.ChrW(13) & Global.Microsoft.VisualBasic.ChrW(10) & "It’s a place where we all, " & Global.Microsoft.VisualBasic.ChrW(13) & Global.Microsoft.VisualBasic.ChrW(10) & "whatever our situat" &
     "ion, can " & Global.Microsoft.VisualBasic.ChrW(13) & Global.Microsoft.VisualBasic.ChrW(10) & "feed our ideas and " & Global.Microsoft.VisualBasic.ChrW(13) & Global.Microsoft.VisualBasic.ChrW(10) & "develop our dreams."" "
-        '
-        'txtsearch
-        '
-        Me.txtsearch.BorderRadius = 12
-        Me.txtsearch.BorderThickness = 0
-        Me.txtsearch.Cursor = System.Windows.Forms.Cursors.IBeam
-        Me.txtsearch.DefaultText = ""
-        Me.txtsearch.DisabledState.BorderColor = System.Drawing.Color.FromArgb(CType(CType(208, Byte), Integer), CType(CType(208, Byte), Integer), CType(CType(208, Byte), Integer))
-        Me.txtsearch.DisabledState.FillColor = System.Drawing.Color.FromArgb(CType(CType(226, Byte), Integer), CType(CType(226, Byte), Integer), CType(CType(226, Byte), Integer))
-        Me.txtsearch.DisabledState.ForeColor = System.Drawing.Color.FromArgb(CType(CType(138, Byte), Integer), CType(CType(138, Byte), Integer), CType(CType(138, Byte), Integer))
-        Me.txtsearch.DisabledState.Parent = Me.txtsearch
-        Me.txtsearch.DisabledState.PlaceholderForeColor = System.Drawing.Color.FromArgb(CType(CType(138, Byte), Integer), CType(CType(138, Byte), Integer), CType(CType(138, Byte), Integer))
-        Me.txtsearch.FillColor = System.Drawing.Color.FromArgb(CType(CType(29, Byte), Integer), CType(CType(32, Byte), Integer), CType(CType(40, Byte), Integer))
-        Me.txtsearch.FocusedState.BorderColor = System.Drawing.Color.FromArgb(CType(CType(94, Byte), Integer), CType(CType(148, Byte), Integer), CType(CType(255, Byte), Integer))
-        Me.txtsearch.FocusedState.Parent = Me.txtsearch
-        Me.txtsearch.Font = New System.Drawing.Font("Segoe UI", 12.0!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
-        Me.txtsearch.ForeColor = System.Drawing.Color.FromArgb(CType(CType(224, Byte), Integer), CType(CType(224, Byte), Integer), CType(CType(224, Byte), Integer))
-        Me.txtsearch.HoverState.BorderColor = System.Drawing.Color.FromArgb(CType(CType(94, Byte), Integer), CType(CType(148, Byte), Integer), CType(CType(255, Byte), Integer))
-        Me.txtsearch.HoverState.Parent = Me.txtsearch
-        Me.txtsearch.IconLeft = Global.LibraryManagementSystemApp.My.Resources.Resources.search
-        Me.txtsearch.IconLeftSize = New System.Drawing.Size(25, 25)
-        Me.txtsearch.Location = New System.Drawing.Point(35, 67)
-        Me.txtsearch.Margin = New System.Windows.Forms.Padding(4)
-        Me.txtsearch.Name = "txtsearch"
-        Me.txtsearch.PasswordChar = Global.Microsoft.VisualBasic.ChrW(0)
-        Me.txtsearch.PlaceholderText = "Search here...."
-        Me.txtsearch.SelectedText = ""
-        Me.txtsearch.ShadowDecoration.Parent = Me.txtsearch
-        Me.txtsearch.Size = New System.Drawing.Size(289, 42)
-        Me.txtsearch.TabIndex = 0
         '
         'BunifuCustomLabel2
         '
@@ -1020,7 +988,6 @@ Partial Class FormMain
     Friend WithEvents Guna2Panel9 As Guna.UI2.WinForms.Guna2Panel
     Friend WithEvents Guna2Panel14 As Guna.UI2.WinForms.Guna2Panel
     Friend WithEvents Label1 As Label
-    Friend WithEvents txtsearch As Guna.UI2.WinForms.Guna2TextBox
     Friend WithEvents BunifuCustomLabel2 As Bunifu.Framework.UI.BunifuCustomLabel
     Friend WithEvents BunifuCustomLabel3 As Bunifu.Framework.UI.BunifuCustomLabel
     Friend WithEvents Guna2Panel5 As Guna.UI2.WinForms.Guna2Panel

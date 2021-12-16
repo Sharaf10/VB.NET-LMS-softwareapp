@@ -84,7 +84,7 @@ Public Class StaffDetails
         Try
             Dim query As String
             conn.Open()
-            query = "UPDATE `librarydb`.`tblstaff` SET `Staffname` = '" & txtname.Text & "', `NIC` = '" & txtNIC.Text & "', `Designation` = '" & txtdesignation.Text & "',`Contact` = '" & txtcontact.Text & "',`Email` = '" & txtemail.Text & "',`Date_Joined` = '" & DateTimePicker1.Text & "' WHERE (`Staffid` = '" & txtid.Text & "');"
+            query = "UPDATE `librarydb`.`tblstaff` SET `Staffname` = '" & txtname.Text & "', `NIC` = '" & txtNIC.Text & "', `Designation` = '" & txtdesignation.Text & "',`Contact` = '" & txtcontact.Text & "',`Email` = '" & txtemail.Text & "',`Joined_Date` = '" & DateTimePicker1.Text & "' WHERE (`Staffid` = '" & txtid.Text & "');"
             COMMAND = New MySqlCommand(query, conn)
             RENDER = COMMAND.ExecuteReader
             conn.Close()

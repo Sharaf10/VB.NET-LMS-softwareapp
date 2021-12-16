@@ -254,6 +254,10 @@ Public Class IssueDetails
     Private Sub Guna2ControlBox1_Click(sender As Object, e As EventArgs) Handles Guna2ControlBox1.Click
         Application.Exit()
     End Sub
+
+    Private Sub IssueDate_ValueChanged(sender As Object, e As EventArgs) Handles IssueDate.ValueChanged
+
+    End Sub
 End Class
 
 
